@@ -23,4 +23,4 @@ I did some quick check to make sure that the output/gradient computed using the 
 
 ![runtime profile](profile.png "Performance")
 
-As expected, the runtime is significantly faster than normal recursion. At sequence length $2^15$, this implementation is about 1000x faster.
+As expected, the runtime is significantly faster than normal recursion. At sequence length $2^{15}=32768$, this implementation is about 1000x faster than normal recursion.
